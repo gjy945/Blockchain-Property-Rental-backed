@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace = 接口的全限定符-->
+<mapper namespace="com.example.house_backed.mapper.StudentMapper">
+
+    <select id="getStudentById" resultType="com.example.house_backed.pojo.Student" parameterType="java.lang.String">
+        select * from student where id = #{id}
+    </select>
+</mapper>

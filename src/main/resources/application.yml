@@ -1,0 +1,32 @@
+# 服务器设置
+server:
+  port: 8081
+
+# Spring 框架配置
+spring:
+  mvc:
+    # URL响应地址（Springboot默认为/**)
+    static-path-pattern: /static/**
+  # 主要配置
+  main:
+    # 允许循环引用
+    allow-circular-references: true
+
+  # 数据源配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/s019?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+  type-aliases-package: com.example.house_backed.pojo  # 实体类所在的包路径
+  mapper-locations: classpath:mapper/*.xml  # Mapper XML 文件的位置
+  configuration:
+    default-enum-type-handler: org.apache.ibatis.type.EnumTypeHandler  # 默认的枚举类型处理器
+    map-underscore-to-camel-case: true  # 开启下划线转驼峰命名
+    cache-enabled: true  # 开启缓存
+    lazy-loading-enabled: true  # 开启延迟加载
+    aggressive-lazy-loading: false  # 关闭积极加载
+    use-generated-keys: true  # 使用数据库生成的自增主键
