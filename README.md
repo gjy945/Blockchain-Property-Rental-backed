@@ -1,7 +1,7 @@
 # FISCO BCOS 区块链房屋租赁 Demo - 后端
 
-  ![Java](https://img.shields.io/badge/Java-17-orange)
-  ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1.0-green)
+  ![Java](https://img.shields.io/badge/Java-11-orange)
+  ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.7.0-green)
 
 ## 项目简介
 
