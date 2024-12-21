@@ -12,11 +12,9 @@
 
   ### 相关资料
 
-  [智药守护APP - 前端uniapp](https://github.com/gjy945/SmartMedicineGuardia_fronted.git)
+  [区块链房屋租赁demo - 前端vue2+element](https://github.com/gjy945/Blockchain-Property-Rental-fronted.git)
 
-  [智药守护APP - 前端管理端vue3+ts](https://github.com/gjy945/SmartMedicineGuardia_fronted_admin.git)
-
-  [智药守护APP - 后端springboot](https://github.com/gjy945/SmartMedicineGuardia_banked.git)
+  [区块链房屋租赁demo - 后端springboot2](https://github.com/gjy945/Blockchain-Property-Rental-backed.git)
 
 ---
 
